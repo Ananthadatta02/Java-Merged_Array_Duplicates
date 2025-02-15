@@ -91,29 +91,6 @@ Output: 3 2
 
 ---
 
-## Improvements & Considerations
-1. **Optimize Duplicate Search:** The current method has O(n²) complexity. Using HashSets can improve efficiency.
-2. **Avoid Reprinting Duplicates:** Store duplicates in a list before printing.
-3. **Handle Edge Cases:**
-   - Empty arrays
-   - Arrays with all unique elements
-   - Large-sized arrays
-
-## How to Run the Program
-1. Copy the Java code into a file named `Duplicate_in_Merged_Array.java`.
-2. Open a terminal or command prompt and navigate to the file location.
-3. Compile the program using:
-   ```sh
-   javac Duplicate_in_Merged_Array.java
-   ```
-4. Run the program using:
-   ```sh
-   java duplicateElemtOperations.Duplicate_in_Merged_Array
-   ```
-5. Enter the array sizes and elements as prompted.
-
----
-
 ## Clone
 ```
 git clone https://github.com/Ananthadatta02/Java-Merged_Array_Duplicates.git
